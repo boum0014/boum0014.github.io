@@ -1,0 +1,39 @@
+body {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 18px;
+}
+
+header,footer {
+background-color:forestgreen
+}
+
+.site-title {
+    color:crimson
+}
+
+#my-image {
+box-shadow: 0 0 2px 1px black;
+}
+
+main ul {
+    list-style-type: square;
+}
+
+main ul li:nth-child(odd) {
+    background-color: firebrick;
+}
+
+nav ul{
+    list-style-type:none;
+    background-color:rgb(255, 0, 0);
+    border-style: dotted;
+    color:forestgreen
+}
+
+nav ul:hover {
+background-color:rgb(255, 112, 112)
+}
+
+nav ul a {
+    text-decoration: none;
+}
