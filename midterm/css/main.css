@@ -1,0 +1,71 @@
+body {
+background-color: #aad4cf;
+}
+
+.lilstar {
+position: relative;
+text-align: center;
+}
+
+.spongebob {
+    width: 100%;
+}
+
+.imagestar {
+position: absolute;
+color: white;
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+font-size: 50px;
+top: 60%;
+left: 50%;
+transform: translate(-50%, -50%);
+}
+
+nav a {
+font-size: 25px;
+color: #1b087f;
+text-decoration: none; 
+}
+  
+nav li a {
+display: inline-block;
+width: 200px;
+padding: 10px 20px;
+}
+
+nav li {
+display: inline-block;
+}
+
+nav ul {
+text-align: center;
+list-style-type: none;
+overflow: auto;
+}
+
+.patrick {
+    height: 225px;
+    width: 225px;
+    float: left;
+    margin-bottom: 12px;
+    margin-right: 12px;
+}
+p{
+    font-size: 20px;
+}
+
+.squidward {
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-left: 15%;
+    margin-right: 15%;
+    background-color: #d4e9e7
+}
+footer {
+    text-align: right;
+}
+
+.mrkrab {
+    padding: 10px;
+    border: 1px solid black;
+}
