@@ -365,3 +365,72 @@ form text area {
     background-color: #222;
     margin-top: 20px;
 }
+
+.hours h3 {
+    margin-top: 30px;
+    color: #222;
+    font-size: 2.5em;
+    margin-bottom: 10px;
+    padding-bottom: 20px;
+}
+
+.hours table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.hours thead {
+    background-color: #ffe6ac;
+}
+
+.hours th,
+td {
+    padding: 10px;
+    border: 1px solid #222;
+    text-align: left;
+}
+
+.hours tbody {
+    padding: 10px;
+    border: 1px solid #222;
+    text-align: left;
+}
+
+.hours td {
+    padding: 10px;
+    border: 1px solid #222;
+    text-align: left;
+}
+
+.location h3 {
+    margin-top: 30px;
+    color: #222;
+    font-size: 2.5em;
+    margin-bottom: 10px;
+    padding-bottom: 20px;
+}
+
+/****Location**/
+
+.location iframe {
+    width: 100%;
+}
+
+/**Footer***/
+
+.copy {
+    margin-bottom: 1em;
+    padding-left: 1em;
+}
+
+.site-footer {
+    color: #c78c06;
+    background-color: #222;
+    padding-top: 3em;
+    padding-bottom: 3em;
+    padding-left: -1em;
+    padding-right: -5em;
+    width: 100%;
+}
