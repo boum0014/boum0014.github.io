@@ -135,3 +135,14 @@ p {
     text-decoration: none;
     font-size: 2em;
 }
+
+.digital h3,
+.marketing-plans h3,
+.video h3,
+.web h3,
+.print h3 {
+    margin-top: 30px;
+    color: #222;
+    font-size: 2.5rem;
+    margin-left: 12px;
+}
