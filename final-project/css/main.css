@@ -270,3 +270,62 @@ p {
 .ourvision {
     background-image: url(../images/vision.jpg);
 }
+
+.team h2 {
+    margin-top: 30px;
+    font-size: 24px;
+    color: #222;
+    font-size: 2.5em;
+    margin-left: 12px;
+    margin-bottom: 15px;
+}
+
+.john img,
+.bob img {
+    max-width: 100%;
+    height: auto;
+}
+
+.johndoe h3,
+.bobrite h3 {
+    margin-top: 30px;
+    color: #222;
+    font-size: 2.5em;
+    margin-left: 12px;
+}
+
+.johndoe h4,
+.bobrite h4 {
+    margin-top: 5px;
+    color: #222;
+    font-size: 20px;
+    margin-left: 12px;
+}
+
+.johndoe p,
+.bobrite p {
+    margin-top: 5px;
+    color: #222;
+    font-size: 16px;
+    margin-left: 12px;
+    padding-bottom: 1em;
+    margin-right: 10px;
+}
+
+.john img {
+    width: 100%;
+}
+
+.bob img {
+    width: 100%;
+}
+
+.john {
+    background-color: #ffe6ac;
+    margin-bottom: 1em;
+}
+
+.bob {
+    background-color: #ffe6ac;
+    margin-bottom: 1em;
+}
