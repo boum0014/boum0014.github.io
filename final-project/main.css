@@ -1,6 +1,19 @@
+/* font-family: 'Open Sans', sans-serif; */
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    color: #222;
+    margin: 0 auto;
+}
+
+
+
+
+
 .stars {
     background-image: url(images/main-banner.jpg);
 width: 100%;
 height: auto;
 background-repeat: no-repeat;
+
 }
