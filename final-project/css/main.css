@@ -182,3 +182,91 @@ p {
     margin-left: 12px;
     padding-bottom: 1em;
 }
+
+.about img {
+    width: 97.5%;
+    height: 100%;
+    padding-top: 1em;
+    padding-right: 2em;
+    padding-left: 1em;
+}
+
+.services h2 {
+    margin-top: 30px;
+    font-size: 24px;
+    color: #222;
+    font-size: 2.5em;
+    margin-left: 12px;
+    margin-bottom: 15px;
+
+}
+
+.digital {
+    background-color: #ffe6ac;
+    margin-bottom: 1em;
+}
+
+.digital img {
+    width: 100%;
+}
+
+.marketing-plans {
+    background-color: #ffe6ac;
+}
+
+.marketing-plans img {
+    width: 100%;
+}
+
+.video {
+    background-color: #ffe6ac;
+    margin-bottom: 1em;
+}
+
+.web {
+    background-color: #ffe6ac;
+    margin-bottom: 1em;
+}
+
+.print {
+    background-color: #ffe6ac;
+    margin-bottom: 1em;
+    width: 100%;
+}
+
+.print img {
+    width: 100%;
+}
+
+.ourvision h3 {
+    font-size: 2.5em;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    color: white;
+    margin-left: 12px;
+    padding-top: 1em;
+}
+
+.ourvision p {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color: white;
+    margin-left: 12px;
+    margin-right: 10px;
+}
+
+.ourvisionbtn {
+    display: inline-block;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 15px;
+    padding: 18px 28px;
+    background-color: #222;
+    color: #fff;
+    text-decoration: none;
+    font-size: 2em;
+}
+
+.ourvision {
+    background-image: url(../images/vision.jpg);
+}
