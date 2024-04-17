@@ -501,5 +501,40 @@ td {
         height: auto;
         background-repeat: no-repeat;
     } 
+
+    .form {
+        display: flex;
+        height: 5em;
+        width: 18em;
+        padding-top: 3em;
+        padding-left: 5em;
+        margin-right: 9.5em;
+      }
+
+      /**Our Services***/
+
+    .ourservices1 {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 1em;
+    }
+
+    .ourservices2 {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 1em;
+    }
+
+    .video img {
+        width: 100%;
+    }
+
+    .web img {
+        width: 100%;
+    }
+
+    .print {
+        width: 100%;
+    }
 }
 
