@@ -94,9 +94,9 @@ form h1 {
 
 .stars {
     background-image: url(images/main-banner.jpg);
-width: 100%;
-height: auto;
-background-repeat: no-repeat;
+    width: 100%;
+    height: auto;
+    background-repeat: no-repeat;
 
 }
 
@@ -434,3 +434,72 @@ td {
     padding-right: -5em;
     width: 100%;
 }
+
+/**Desktop Styles**/
+
+
+@media screen and (min-width: 760px) {
+
+    .container {
+        padding: 20px;
+    }
+
+
+    /**Navigation**/
+
+
+
+    .main-head {
+        display: grid;
+        padding: 10px;
+    }
+
+    .main-nav {
+        display: flex;
+
+    }
+
+    nav ul li a {
+        display: flex;
+        margin-top: 2em;
+        margin-left: -23px;
+        margin-right: -23px;
+    }
+
+    nav ul li:nth-child(2) a {
+        color: #c78c06;
+        background-color: #222;
+        margin-left: -10em;
+    }
+
+    nav ul li:nth-child(3) a {
+        margin-left: -10em;
+    }
+
+    nav ul li:nth-child(4) a {
+        margin-left: -9em;
+    }
+
+    nav ul li:nth-child(5) a {
+        margin-left: -8em;
+    }
+
+    nav ul li:nth-child(6) a {
+        margin-left: -7em;
+    }
+
+    .nav-list img {
+        margin-top: 1.5em;
+        margin-bottom: -8em;
+        margin-left: 3em;
+        background-color: #222;
+    }
+   
+    .star {
+        background-image: url(../images/main-banner.jpg);
+        width: 92%;
+        height: auto;
+        background-repeat: no-repeat;
+    } 
+}
+
