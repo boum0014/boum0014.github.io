@@ -22,12 +22,11 @@ body {
     margin: 0 auto;
     background-color: #222;
     max-width: 1200px;
-}
-
-.nav-list {
     text-align: center;
     font-size: larger;
 }
+
+
 
 .nav-list li {
     padding: 2em;
@@ -92,16 +91,15 @@ form h1 {
     font-size: 2em;
 }
 
-.stars {
-    background-image: url(images/main-banner.jpg);
+.star-media {
+    background-image: url(../images/main-banner.jpg);
     width: 100%;
     height: auto;
     background-repeat: no-repeat;
-
+    position: relative;
 }
 
-.star-media h1,
-p {
+.star-media h1, p {
     list-style: none;
     width: 90%;
     padding: 1em;
@@ -112,19 +110,19 @@ p {
 
 
 .star-media h1 {
-    font-size: 6em;
+    font-size: 5em;
     color: white;
-    padding-top: 2.5em;
-    padding-left: 0.3em;
+    padding-top: 2em;
+    text-align: left;
 }
 
 .star-media p {
-    font-size: 16px;
     color: white;
     font-size: 1em;
-    margin-right: 3em;
-    padding-left: 2em;
+    text-align: left;
+    padding-left: 6rem;
 }
+
 
 .homestar {
     display: inline-block;
@@ -223,9 +221,17 @@ p {
     margin-bottom: 1em;
 }
 
+.video img {
+    width: 100%;
+}
+
 .web {
     background-color: #ffe6ac;
     margin-bottom: 1em;
+}
+
+.web img {
+    width: 100%;
 }
 
 .print {
@@ -238,7 +244,7 @@ p {
     width: 100%;
 }
 
-.ourvision h3 {
+.vision h3 {
     font-size: 2.5em;
     margin-top: 25px;
     margin-bottom: 25px;
@@ -247,7 +253,7 @@ p {
     padding-top: 1em;
 }
 
-.ourvision p {
+.vision p {
     margin-top: 20px;
     margin-bottom: 20px;
     color: white;
@@ -255,7 +261,7 @@ p {
     margin-right: 10px;
 }
 
-.ourvisionbtn {
+.visionbtn {
     display: inline-block;
     margin-top: 20px;
     margin-bottom: 20px;
@@ -267,11 +273,11 @@ p {
     font-size: 2em;
 }
 
-.ourvision {
+.vision {
     background-image: url(../images/vision.jpg);
 }
 
-.team h2 {
+.team h1 {
     margin-top: 30px;
     font-size: 24px;
     color: #222;
@@ -459,6 +465,11 @@ td {
 
     }
 
+    .nav-list {
+        display: flex;
+        margin-left: -3rem;
+    }
+
     nav ul li a {
         display: flex;
         margin-top: 2em;
@@ -495,9 +506,9 @@ td {
         background-color: #222;
     }
    
-    .star {
+    .star-media {
         background-image: url(../images/main-banner.jpg);
-        width: 92%;
+        max-width: 86%;
         height: auto;
         background-repeat: no-repeat;
     } 
@@ -506,7 +517,7 @@ td {
         display: flex;
         height: 5em;
         width: 18em;
-        padding-top: 3em;
+        padding-top: 1.5em;
         padding-left: 5em;
         margin-right: 9.5em;
       }
@@ -536,5 +547,126 @@ td {
     .print {
         width: 100%;
     }
+
+    /******TEAM********/
+
+    .team h2 {
+        font-size: 2.5rem;
+    }
+
+    .team {
+        flex-direction: column;
+        align-items: center;
+        text-align: left;
+    }
+
+    .john {
+        display: flex;
+        align-items: center;
+        padding: 20px;
+
+    }
+
+    .johninfo {
+        flex: 1;
+        order: 1;
+        text-align: justify;
+        margin-bottom: 10em;
+        margin-left: -0.5em;
+    }
+
+    .johndoe img {
+        width: 100%;
+        margin: -1.2em;
+        flex-direction: row;
+        display: flex;
+        flex-direction: row;
+        align-items: flex-start;
+    }
+
+    .johninfo h3 {
+        font-size: 2.5em;
+        padding-bottom: 0.2em;
+    }
+
+    .johninfo h4 {
+        font-size: 1.5em;
+        padding-bottom: 0.5em;
+    }
+
+    .bob {
+        display: flex;
+        align-items: center;
+        padding-left: 20px;
+        padding-bottom: -8em;
+        padding-top: -7em;
+    }
+
+    .bobinfo {
+        flex: -1;
+        order: -1;
+        text-align: justify;
+        margin-bottom: 10em;
+        margin-left: -1em;
+        margin-right: -8em;
+    }
+
+    .bobrite img {
+        width: 105em;
+        flex-direction: row;
+        display: flex;
+        flex-direction: row;
+        align-items: flex-start;
+        margin-left: -2em;
+        padding-left: 2em;
+
+    }
+
+    .bobinfo h3 {
+        font-size: 2.5em;
+        padding-bottom: 0.2em;
+    }
+
+    .bobinfo h4 {
+        font-size: 1.5em;
+        padding-bottom: 0.5em;
+    }
+
+    .bobinfo p {
+        padding-right: 4em;
+    }
+
+    /**Contact, hours, and location**/
+    .grid-bottom {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(2, 120px);
+        gap: 25em 1.5em;
+        grid-template-areas:
+            "header main"
+            "footer footer"
+    }
+
+    .contact {
+        grid-area: header;
+        padding: 20px;
+        margin-bottom: 20px;
+    }
+
+    .hours {
+        grid-area: footer;
+        padding: 20px;
+        margin-bottom: 50em;
+    }
+
+    .location {
+        grid-area: main;
+        padding-bottom: 20px;
+    }
+
+    .site-footer {
+        margin-top: 10em;
+    }
 }
+
 
